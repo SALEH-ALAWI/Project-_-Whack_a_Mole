@@ -1,1 +1,1 @@
-# Project-_-Whack_a_Mole
+# Whack_a_Mole
