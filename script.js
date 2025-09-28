@@ -19,11 +19,11 @@ const randomHole = () => {
 const moveMole = () => {
   holes.forEach((hole) => hole.classList.remove("show")) //here to remove any from the holes show
   const hole = randomHole() //choose random hole and added mole
-  hole.classList.add("show")
+  hole.classList.add("show") // appear mole to chosen hole
   hole.appendChild(mole) //to trasfer the mole the photo or element
 }
 
-moleTimer = setInterval(() => moveMole(), 400) //make the mole moving per 0.4 second
+moleTimer = setInterval(() => moveMole(), 400) //make the mole moving per 0.4 second or summon the mole per 0.4s
 
 mole.addEventListener("click", () => {
   if (score < 110) {
@@ -44,3 +44,4 @@ resetBtn.addEventListener("click", () => {
   score = 0 // reset the score to 0
   scoreDisplay.innerText = score // update show scores
 })
+
