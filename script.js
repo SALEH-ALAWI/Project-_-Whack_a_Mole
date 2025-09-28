@@ -11,8 +11,8 @@ let score = 0 // scores
 let moleTimer //this timer for who controls the movement of the mall
 
 const randomHole = () => {
-  const emoji = Math.floor(Math.random() * holes.length)
-  return holes[emoji]
+  const emoji = Math.floor(Math.random() * holes.length) // movement mole like randomly
+  return holes[emoji] // return the selected hole
 }
 
 //
@@ -44,4 +44,5 @@ resetBtn.addEventListener("click", () => {
   score = 0 // reset the score to 0
   scoreDisplay.innerText = score // update show scores
 })
+
 
