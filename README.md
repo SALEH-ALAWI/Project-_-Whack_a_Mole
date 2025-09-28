@@ -27,11 +27,11 @@
 ### **Screenshots**
 
 #####
-![Smile]()
+
 
 #####
-![emoji]*************()
-***
+
+
 
 ### **Future Updates & Edits**
 
